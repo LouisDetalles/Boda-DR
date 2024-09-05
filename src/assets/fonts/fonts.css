@@ -1,0 +1,36 @@
+
+@font-face {
+    font-family: 'Butler_Regular';
+    src: url('../fonts/Butler_Regular.otf') format('truetype');
+    font-weight: 0;
+    font-size: normal;
+  }
+
+
+@font-face {
+    font-family: 'Butler_Bold';
+    src: url('../fonts/Butler_Bold.otf') format('truetype');
+    font-weight: 0 ;
+    font-style: normal ;
+  }
+
+  @font-face {
+    font-family: 'Butler_Medium';
+    src: url('../fonts/Butler_Medium.otf') format('truetype');
+    font-weight: 0 ;
+    font-style: normal;
+  }
+
+  /*@font-face {
+    font-family: 'Adelia-bold';
+    src: url('../fonts/adelia.ttf') format('truetype');
+    font-weight: bold ;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Castellar';
+    src: url('../fonts/CastellarMTStd.ttf');
+    font-weight: normal;
+    font-style: normal;
+  }*/

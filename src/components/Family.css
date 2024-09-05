@@ -1,0 +1,40 @@
+
+.header-container-Family {
+    background-image: url('../images/INVITACION-2desktop.png');
+    background-color: rgba(239, 249, 232);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: normal;
+    height: 76vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'PT Sans', sans-serif;
+    margin-bottom: 10rem;
+    padding-bottom: 5rem;
+  }
+
+
+  @media only screen and (max-width: 960px) { 
+
+    .header-container-Family {
+      background-image: url('../images/INVITACION-2movil.png');
+      background-color: rgba(239, 249, 232);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-blend-mode: normal;
+      height: 50vh;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'PT Sans', sans-serif;
+      margin-bottom: 2rem;
+      padding-bottom: 4rem;
+    }
+
+
+
+  }

@@ -1,0 +1,153 @@
+.header-container-Conutdown {
+    background-image: url('../images/INVITACION-4desktop.png');
+    background-color: rgba(239, 249, 232);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    height: 62vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'PT Sans', sans-serif;
+    margin: 0rem;
+  }
+
+
+.flex-container-main-Conutdown{
+    justify-content: center;
+    display: flex;
+    width: 100%;
+
+}
+
+.title-Conutdown{
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    text-align: center;
+    font-family: "Butler_Regular", sans-serif;
+    font-size: 2.7rem;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: #ffffff;
+    margin-top: 0rem;
+    margin-bottom: 3rem;
+}
+
+
+.Sub-title-Conutdown{
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  text-align: center;
+  font-family: "Butler_Regular", sans-serif;
+  font-size: 1.3rem;
+  text-decoration: none;
+  letter-spacing: 2.0px;
+  color: #ffffff;
+  margin-top: 2rem;
+}
+
+
+
+
+
+
+
+
+
+.flex-container-main-Conutdown {
+    display: flex;
+    justify-content: center;
+    gap: 1rem; /* Espacio entre los bloques de tiempo */
+    }
+  
+  .time-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #eff9e8;
+  }
+  
+  .time-value {
+    font-family: "Butler_Bold", sans-serif;
+    font-size: 7rem; /* Tamaño del valor de tiempo */
+    font-weight: bold;
+  }
+  .time-label-point{
+    font-family: "Butler_Bold", sans-serif;
+    font-size: 5rem; /* Tamaño del valor de tiempo */
+    position: relative;
+    margin-left: 2rem;
+  }
+  
+  .time-label {
+    font-family: "Butler_Regular", sans-serif;
+    font-size: 1.2rem; /* Tamaño del label */
+    letter-spacing: 1px;
+    color: #eff9e8; /* Color del texto del label */
+    margin-bottom: 2rem;
+  }
+
+
+
+  @media only screen and (max-width: 960px) { 
+
+    .header-container-Conutdown {
+      background-image: url('../images/INVITACION-4movil.png');
+      background-color: rgba(239, 249, 232);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-blend-mode: darken;
+      height: 39vh;
+      width: 100%;
+      display: flex;
+      margin: auto;
+      justify-content: center;
+      align-items: center;
+      font-family: 'PT Sans', sans-serif;
+    }
+  
+
+    .title-Conutdown{
+      justify-content: center;
+      display: flex;
+      width: 65%;
+      text-align: center;
+      font-family: "Butler_Regular", sans-serif;
+      font-size: 1.1rem;
+      font-weight: normal;
+      text-decoration: none;
+      letter-spacing: 1px;
+      color: #ffffff;
+      margin-top: 0rem;
+      margin-bottom: 0.6rem;
+      line-height: 1.6rem;
+
+  }
+
+  .time-value {
+    font-family: "Butler_Bold", sans-serif;
+    font-size: 2.4rem; /* Tamaño del valor de tiempo */
+    font-weight: bold;
+  }
+  .time-label-point{
+    font-family: "Butler_Bold", sans-serif;
+    font-size: 1.8rem; /* Tamaño del valor de tiempo */
+    position: relative;
+    margin-left: 0.5rem;
+  }
+
+  .time-label {
+    font-family: "Butler_Regular", sans-serif;
+    font-size: 0.5rem; /* Tamaño del label */
+    letter-spacing: 1px;
+    color: #eff9e8; /* Color del texto del label */
+    padding-bottom: 1rem;
+  }
+
+  
+  
+  }

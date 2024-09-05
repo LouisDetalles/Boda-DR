@@ -1,0 +1,117 @@
+
+
+
+.header-container-FechaLugar-Movil {
+  display: none;
+}
+
+
+.header-container-FechaLugar-two-Movil {
+  display: none;
+}
+
+
+.header-container-FechaLugar {
+    background-color: rgba(239, 249, 232);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    height: 85vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'PT Sans', sans-serif;
+    padding-bottom: 10rem;
+  }
+
+  
+.header-container-FechaLugar-two {
+  background-color: rgba(239, 249, 232);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'PT Sans', sans-serif;
+  padding-bottom: 0rem;
+}
+
+
+.fecha-img{
+  scale: 0.4;
+}
+
+.hora-img{
+  scale: 0.5;
+}
+
+
+@media only screen and (max-width: 960px) { 
+
+  .header-container-FechaLugar{
+    display: none;
+  }
+
+  .fecha-img{
+    display: none;
+  }
+
+  .header-container-FechaLugar-two{
+    display: none;
+  }
+
+  .hora-img{
+    display: none;
+  }
+  
+
+
+  .header-container-FechaLugar-Movil {
+    background-color: rgba(239, 249, 232);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'PT Sans', sans-serif;
+    padding-bottom: 6rem;
+  }
+
+  
+.header-container-FechaLugar-two-Movil {
+  background-color: rgba(239, 249, 232);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'PT Sans', sans-serif;
+  padding-bottom: 0rem;
+}
+
+
+.fechaMovil-img{
+  width: 100%;
+}
+
+.horaMovil-img{
+  margin-top: 6rem;
+  width: 75%;
+  margin-bottom: 6rem;
+}
+
+
+
+}

@@ -1,0 +1,174 @@
+.Esperamos-img-Movil{
+  display: none;
+}
+
+.header-container-Confirmar {
+    background-image: url('../images/INVITACION-8desktop.png');
+    background-color: rgba(239, 249, 232);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'PT Sans', sans-serif;
+    padding-bottom: 1rem
+  }
+  
+
+  .header-container-Confirmar-two {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 13rem;
+  }
+  
+
+  .header-container-Confirmar-find {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+  }
+  
+
+  .Esperamos-img{
+    scale: 0.38;
+  }
+
+  .LogoMain-img{
+    display: flex;
+    justify-content: center;
+    scale: 0.25;
+    margin-top: 40rem;
+    padding-top: 40rem;
+    position: relative;
+  }
+
+
+  .container-btn-confirmar{
+    display: flex;
+    position: relative;
+    padding-top: 4rem;
+  }
+
+
+
+  .btn-outline{
+    display: flex;
+    z-index: 100;
+    background-color: #ffffff;
+    padding-top: 2rem;
+    padding-right: 5rem;
+    padding-bottom: 2rem;
+    padding-left: 5rem;
+    border: 3px solid #a38350;
+    transition: all 0.3s ease-out;
+    border-radius: 2px;
+    text-decoration-line: none;
+    outline: none;
+    cursor: pointer;
+    z-index: 100;
+}
+
+
+.btn-outline:hover{
+  color: #ffffff;
+  background-color: #a38350;
+  border: 3px solid #a38350;
+}
+
+
+
+  @media only screen and (max-width: 960px) { 
+
+
+    .header-container-Confirmar {
+      background-image: url('../images/INVITACION-8movil.png');
+      background-color: rgba(239, 249, 232);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-blend-mode: darken;
+      height: 82vh;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: 'PT Sans', sans-serif;
+    }
+
+    .header-container-Confirmar-two {
+      width: 100%;
+      height: 45vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 0rem;
+    }
+    
+
+
+    .Esperamos-img{
+      display: none;
+    }
+
+    .Esperamos-img-Movil{
+      display: flex;
+      width: 90%;
+    }
+
+
+    .LogoMain-img{
+      display: flex;
+      justify-content: center;
+      scale: 0.16;
+      padding: 0rem;
+      margin-top: 25%;
+    }
+  
+  
+
+    .btn-outline{
+      display: flex;
+      justify-content: center;
+      width: 50%;
+      background-color: #ffffff;
+      padding-top: 1rem;
+      padding-right: 5.5rem;
+      padding-bottom: 1rem;
+      padding-left: 5.5rem;
+      border: 2px solid #a38350;
+      transition: all 0.3s ease-out;
+      border-radius: 2px;
+      text-decoration-line: none;
+      outline: none;
+      cursor: pointer;  
+      margin-top: 4rem ;
+      margin-right: auto;
+      margin-bottom: auto;
+      margin-left: auto ;
+      font-weight: 500;
+      z-index: 100;
+      
+  }
+  
+  .btn-outline:hover{
+    color: #ffffff;
+    background-color: #a38350;
+    border: 1px solid #a38350;
+    font-family: "Enchanting-Bold";
+  }
+    
+  
+  
+  }

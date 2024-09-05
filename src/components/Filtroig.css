@@ -1,0 +1,138 @@
+.header-container-Filtroig {
+  background-image: url('../images/INVITACION-6desktop.png');
+  background-color: rgba(239, 249, 232);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+  height: 65vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'PT Sans', sans-serif;
+}
+
+
+.btn-outline-two-ori{
+  display: flex;
+  z-index: 100;
+  background-color: #ffffff;;
+  padding: 2rem 4rem;
+  border: 2px solid #ffffff;
+  transition: all 0.3s ease-out;
+  border-radius: 2px;
+  text-decoration-line: none;
+  outline: none;
+  cursor: pointer;
+  margin-top: 0rem; 
+  text-decoration: none !important;
+}
+
+.btn-outline-two-ori:hover{
+color: #365023;
+background-color: #c1d5aa;
+border: 2px solid #c1d5aa;
+}
+
+
+.btn-text-two{
+  font-family: "Butler_Bold", sans-serif;
+  font-weight: 600;
+  text-align: center;
+  font-size: 2.2rem;
+  letter-spacing: 0px;
+  line-height: 20px;
+  color: #a38350;
+  text-decoration: none !important;
+  margin-top: 1rem;
+  padding-top: 2rem;
+}
+
+
+
+
+
+.us-wrap-Info-two {
+  display: flex;
+  overflow: hidden;
+  max-width: 100%;
+  margin-top: 16%;
+  left: 20%;
+  text-align: start;
+  justify-content: center;
+  align-content: start;
+}
+
+
+
+@media only screen and (max-width: 960px) { 
+
+  .header-container-Filtroig {
+    background-image: url('../images/INVITACION-6movil.png');
+    background-color: rgba(239, 249, 232);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'PT Sans', sans-serif;
+  }
+  
+
+  .us-wrap-Info-two {
+    display: flex;
+    overflow: hidden;
+    max-width: 100%;
+    margin-top: 4.5rem ;
+    left: 20%;
+    text-align: start;
+    justify-content: center;
+    align-content: start;
+    
+  }
+
+
+
+  .btn-outline-two-ori{
+    display: flex;
+    z-index: 100;
+    background-color: #ffffff;;
+    padding-top: 1rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    border: 1px solid #ffffff;
+    transition: all 0.3s ease-out;
+    border-radius: 2px;
+    text-decoration-line: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 1rem; 
+    text-decoration: none !important;
+  }
+  
+  .btn-outline-two-ori:hover{
+  color: #365023;
+  background-color: #c1d5aa;
+  border: 1px solid #c1d5aa;
+  }
+  
+
+
+
+  .btn-text-two{
+    font-family: "Butler_Bold", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 1.3rem;
+    letter-spacing: 0px;
+    line-height: 15px;
+  }
+  
+
+}
