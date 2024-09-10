@@ -21,13 +21,13 @@
     font-style: normal;
   }
 
-  /*@font-face {
-    font-family: 'Adelia-bold';
-    src: url('../fonts/adelia.ttf') format('truetype');
-    font-weight: bold ;
+  @font-face {
+    font-family: 'NottandMatt';
+    src: url('../fonts/NottandMatt.ttf') format('truetype');
     font-style: normal;
+    font-weight: normal
   }
-
+/*
   @font-face {
     font-family: 'Castellar';
     src: url('../fonts/CastellarMTStd.ttf');

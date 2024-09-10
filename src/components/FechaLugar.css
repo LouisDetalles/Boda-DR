@@ -16,7 +16,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: darken;
-    height: 85vh;
+    height: 98vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -43,7 +43,8 @@
 
 
 .fecha-img{
-  scale: 0.4;
+  scale: 1.32;
+  height: 100vh;
 }
 
 .hora-img{
@@ -83,7 +84,7 @@
     justify-content: center;
     align-items: center;
     font-family: 'PT Sans', sans-serif;
-    padding-bottom: 6rem;
+    padding-bottom: 0rem;
   }
 
   

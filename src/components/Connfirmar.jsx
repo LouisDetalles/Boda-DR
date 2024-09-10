@@ -27,6 +27,8 @@ function Connfirmar() {
                 
           </div>  
 
+          <div className='title-Dress-Code'> Dress Code: Vestimenta en colores claros. </div>
+
           <div className='header-container-Confirmar' >
 
                 <div className='container-btn-confirmar'>

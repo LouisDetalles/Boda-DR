@@ -47,6 +47,7 @@ border: 2px solid #c1d5aa;
   text-decoration: none !important;
   margin-top: 1rem;
   padding-top: 2rem;
+  border-radius: 50px ;
 }
 
 
@@ -88,7 +89,7 @@ border: 2px solid #c1d5aa;
     display: flex;
     overflow: hidden;
     max-width: 100%;
-    margin-top: 4.5rem ;
+    margin-top: 7.5rem ;
     left: 20%;
     text-align: start;
     justify-content: center;
@@ -132,6 +133,7 @@ border: 2px solid #c1d5aa;
     font-size: 1.3rem;
     letter-spacing: 0px;
     line-height: 15px;
+    border-radius: 30px ;
   }
   
 

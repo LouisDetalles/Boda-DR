@@ -22,12 +22,10 @@ const LugarFin = () => {
             {/* Info */}
             <div className='us-wrap-Info'
             >
-
                   <h1 className='title-Lugar'> 
                   Lugar: Parroquia Nuestra Señora del Valle
                   </h1>
                   <div className='sub-title-Lugar'> Calle 50 entre Av. Pedro León Torres y carrera 21. </div>
-                  
                   
                 <div className='us-text'>
                     <a href='https://maps.app.goo.gl/RjN1WVc2YHks6VyR8' className=''>
@@ -38,26 +36,7 @@ const LugarFin = () => {
                 </div>
             </div>
 
-            {/* Imagen Principal */}
-            <div
-              data-aos="fade-left"
-              data-aos-offset="200"
-              data-aos-easing="ease-in-sine"
-              data-aos-once="true" 
-              data-aos-duration="800"
-            >
-              <a className='us-wrap' >
-                  <img
-                    className='us-img'
-                    alt='tantra'
-                    src={ tantra }
-                  />
-              </a>
-
-            </div>
         </div>
-
-        <Vestimenta/>
         
       </div>
     </>
